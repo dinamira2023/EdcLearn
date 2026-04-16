@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+
+# Secrets & config locale
+.env
+!.env.example
+
+# Bases SQLite locales
+*.db
+*.sqlite3
+
+# Node / frontend (Vite)
+**/node_modules/
+**/dist-ssr/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.local
+
+# Builds Python
+build/
+dist/
+
+# IDE & OS
+.idea/
+.vscode/
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.swp
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Journaux
+*.log
+logs/
